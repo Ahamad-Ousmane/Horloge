@@ -136,3 +136,18 @@ body{
     color: #333;
     letter-spacing: 0.1em;
 }
+
+@media only screen and (max-width: 600px) {
+    .clock {
+        flex-direction: column;
+    }
+
+
+    .clock .digital .time div {
+        font-size: 2em;
+    }
+
+    .clock .digital .screen::before{
+        
+    }
+}
